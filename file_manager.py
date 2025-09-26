@@ -17,3 +17,4 @@ class File:
         if os.path.exists(self.index):
             with open(self.index, "r") as f:
                 content = f.read().strip()
+                
